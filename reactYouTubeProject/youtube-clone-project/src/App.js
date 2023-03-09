@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Search from './Components/Search';
 import VideoIndex from './Components/VideoIndex';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Search />
       <VideoIndex />
+      <Footer />
     </div>
   );
 }
